@@ -6,7 +6,7 @@ import logo from "./../assets/react.png"
 
 const NavBar = () => {
     return(
-        <div className="flexbox">
+        <nav className="flexbox">
             <div className="react-logo" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
                 <g clip-path="url(#clip0_0_32)">
@@ -24,7 +24,7 @@ const NavBar = () => {
             </div>
             <strong className = "ReactFacts ">ReactFacts</strong>
             <span className = "proj1">React Course-Project 1</span>
-        </div>
+        </nav>
     )
 }
 
