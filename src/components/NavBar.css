@@ -1,17 +1,13 @@
-.flexbox{
+nav{
     display: flex;
-    background: #21222A;
+    align-items: center;
+    background-color: #21222A;
     width: 550px;
     height: 91px;
+
 }
 
-.react-logo{
-    width: 28.93px;
-    margin-left: 26px;
-    margin-top: 31px;
-}
-
-.ReactFacts{
+nav > h2{
     color: #61DAFB;
     font-family: Inter;
     font-size: 22.253px;
@@ -19,15 +15,19 @@
     font-weight: 700;
     line-height: normal;
     letter-spacing: -1.113px;
-    margin-top: 31px;
     padding-left: 6.68px;
+
 }
 
-.proj1{
+nav > h3{
     color: #DEEBF8;
+    padding-left: 180px;
     font-size: 16px;
     font-weight: 600;
-    line-height: normal;
-    padding-left: 180px;
-    margin-top: 38px;
+
+}
+.react-logo{
+    width: 28.93px;
+    margin-left: 26px;
+    padding-top: 31px;
 }
